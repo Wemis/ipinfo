@@ -5,7 +5,7 @@ try:
 	from colorama import Fore, Style, init
 except:
 	print("[-] All modules not installed. Run pip install -r requirements.txt for installing.")
-init(autoreset=True)
+
 
 def error():
     print(Fore.RED + "[-] Error")
