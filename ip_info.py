@@ -4,7 +4,7 @@ try:
 	import requests
 	from colorama import Fore, Style, init
 except:
-	print("[-] All modules not installed. Run pip install -r requirements.txt for installing.")
+        print("[-] All modules not installed. Run pip install -r requirements.txt for installing.")
         os.system("pip install -r requirements.txt")
 
 
