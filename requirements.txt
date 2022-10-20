@@ -1,4 +1,3 @@
 colorama
 requests
-os
-time
+lolcat
